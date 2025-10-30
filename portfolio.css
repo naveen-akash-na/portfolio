@@ -1,0 +1,107 @@
+
+.name{
+  color:blue;
+}
+body{
+  max-width: 1200px; /* adjust as needed */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;  /* small padding */
+  padding-right: 15px;
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  padding-top:50px;
+  background-image: linear-gradient(to top,rgb(164, 245, 231),rgb(253 141 211));
+}
+
+.centent-container{
+  padding:10px;
+  padding-top: 40px;
+}
+
+.picture{
+height: 200px;
+    border-radius: 100px;
+    padding-top: 42px;
+}
+.welcome-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.welcome-section h1 {
+  font-size: 2rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.bg-color{
+    background-color: rgb(255 73 214 / 80%);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;  /* small padding */
+    padding-right: 15px;
+    max-width: 1200px;
+}
+.nav-button{
+    border-width: 0px;
+    background-color: transparent;
+}
+
+.option-box{
+    display: flex !important;
+    flex-basis: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    text-align: right;
+    color:white;
+}
+.contact{
+    background-color: #e4e4e480;
+    padding: 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 120px;
+    margin: 10px;
+}
+
+@media screen and (max-width:959px){
+.option-box{
+    display: flex !important;
+    flex-basis: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    text-align: right;
+    padding-right: 15px;
+}
+.contact-style{
+    display: flex;
+    flex-wrap: wrap;
+}
+}
+@media screen and (min-width:960px){
+  .welcome-section{
+max-width: 1200px;
+  margin: 0 auto;
+  padding: 75px 20px;
+  text-align: center;
+  }
+}
