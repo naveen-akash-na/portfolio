@@ -67,17 +67,18 @@ height: 200px;
     color:white;
 }
 .contact{
-    background-color: #9f798680;
+background-color: #9f798680;
     padding: 0px;
-    border-radius: 10px;
-    display: flex;
+    border-radius: 5px;
+    display: flex
+;
     flex-direction: column;
+    width: 130px;
+    height: 110px;
+    margin: 10px;
     align-content: center;
     justify-content: center;
     align-items: center;
-    width: 150px;
-    height: 120px;
-    margin: 10px;
 }
 
 @media screen and (max-width:959px){
@@ -106,6 +107,7 @@ max-width: 1200px;
   }
 
 }
+
 
 
 
