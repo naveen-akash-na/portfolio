@@ -3,15 +3,14 @@
   color:blue;
 }
 body{
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: rgb(255, 255, 255);
-    background-size: cover;
-    padding-top: 50px;
-    background-image: linear-gradient(to top, rgb(245 165 164), rgb(196 202 255));
+  margin: 0;
+  min-height: 100vh;
+  background-image: linear-gradient(to top, rgb(245 165 164), rgb(196 202 255));
+  background-attachment: fixed; /* keeps background fixed while scrolling */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
 }
 
 .centent-container{
@@ -107,6 +106,7 @@ max-width: 1200px;
   }
 
 }
+
 
 
 
