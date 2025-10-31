@@ -69,14 +69,14 @@ height: 200px;
 background-color: #9f798680;
     padding: 0px;
     border-radius: 5px;
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     width: 130px;
     height: 110px;
     align-content: center;
     justify-content: center;
     align-items: center;
+  margin:5px;
 }
 
 @media screen and (max-width:659px){
@@ -105,6 +105,7 @@ max-width: 1200px;
   }
 
 }
+
 
 
 
