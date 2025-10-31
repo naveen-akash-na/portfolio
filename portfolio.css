@@ -12,7 +12,9 @@ body{
   background-position: center;
   font-family: sans-serif;
 }
-
+.contact-style{
+    display: contents;
+}
 .centent-container{
   padding:10px;
   padding-top: 40px;
@@ -78,10 +80,6 @@ background-color: #9f798680;
     align-items: center;
   margin:5px;
 }
-.contact-style{
-    display: contents;
-    
-}
 
 @media screen and (max-width:659px){
 .option-box{
@@ -109,6 +107,7 @@ max-width: 1200px;
   }
 
 }
+
 
 
 
