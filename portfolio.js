@@ -3,6 +3,7 @@
       const popup = document.getElementById('imagePopup');
       const popupImg = document.getElementById('popupImage');
       popupImg.src = imageUrl;
+      popupImg.style.width = "100%";
       popup.style.display = 'flex';
     }
 
@@ -15,3 +16,4 @@
     document.getElementById('imagePopup').addEventListener('click', function (e) {
       if (e.target === this) closeImagePopup();
     });
+
