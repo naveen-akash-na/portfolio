@@ -44,7 +44,7 @@ height: 200px;
 }
 
 .bg-color{
-    background-color:rgb(13 45 238 / 80%);
+    background-color:rgb(187 52 52 / 80%);
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -97,7 +97,7 @@ background-color: #9f798680;
     display: contents;
 }
 .bg-color {
-    background-color: rgb(13 45 238 / 80%);
+    background-color: rgb(187 52 52 / 80%);
     margin-left: auto;
     margin-right: auto;
     padding-left: 0px;
@@ -114,6 +114,7 @@ max-width: 1200px;
   }
 
 }
+
 
 
 
