@@ -74,13 +74,12 @@ background-color: #9f798680;
     flex-direction: column;
     width: 130px;
     height: 110px;
-    margin: 10px;
     align-content: center;
     justify-content: center;
     align-items: center;
 }
 
-@media screen and (max-width:959px){
+@media screen and (max-width:659px){
 .option-box{
     display: flex !important;
     flex-basis: auto;
@@ -93,11 +92,12 @@ background-color: #9f798680;
     padding-right: 15px;
 }
 .contact-style{
-    display: flex;
     flex-wrap: wrap;
+    width: 310px;
+    gap: 25px;
 }
 }
-@media screen and (min-width:960px){
+@media screen and (min-width:760px){
   .welcome-section{
 max-width: 1200px;
   margin: 0 auto;
@@ -106,6 +106,7 @@ max-width: 1200px;
   }
 
 }
+
 
 
 
