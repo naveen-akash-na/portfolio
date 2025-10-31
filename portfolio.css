@@ -92,9 +92,8 @@ background-color: #9f798680;
     padding-right: 15px;
 }
 .contact-style{
-    flex-wrap: wrap;
-    width: 310px;
-    gap: 25px;
+    display: ruby;
+    
 }
 }
 @media screen and (min-width:760px){
@@ -106,6 +105,7 @@ max-width: 1200px;
   }
 
 }
+
 
 
 
