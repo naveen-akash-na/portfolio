@@ -33,9 +33,9 @@ height: 200px;
 }
 
 .welcome-section h1 {
-  font-size: 2rem;
-  color: #4643f6;
-  margin-bottom: 20px;
+      color: #811d1d;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .welcome-section p {
@@ -114,6 +114,7 @@ max-width: 1200px;
   }
 
 }
+
 
 
 
