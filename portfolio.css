@@ -5,7 +5,7 @@
 body{
   margin: 0;
   min-height: 100vh;
-  background-image: linear-gradient(to top, rgb(245 165 164), rgb(196 202 255));
+  background-image: linear-gradient(to top, rgb(245 165 164), #ffffff);
   background-attachment: fixed; /* keeps background fixed while scrolling */
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,6 +114,7 @@ max-width: 1200px;
   }
 
 }
+
 
 
 
