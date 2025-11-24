@@ -1,8 +1,8 @@
 {
-  "name": "sanjay_portfolio",
+  "name": "naveen_akash_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://smartysanjay3001.github.io/portfolio",
+  "homepage": "https://naveen-akash-na.github.io/react-portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.9.1",
     "@testing-library/jest-dom": "^5.16.5",
